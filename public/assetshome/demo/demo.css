@@ -1,0 +1,328 @@
+.demo-style-switch {
+	opacity: 1;
+	position: fixed;
+	z-index: 999;
+	top: 110px;
+	left: -222px;
+	background: #EEF4F5;
+	-webkit-backface-visibility: hidden
+}
+
+.demo-style-switch:hover {
+	opacity: 1 !important
+}
+
+.demo-style-switch .switched-options {
+	position: relative;
+	width: 220px;
+	text-align: left;
+	padding: 20px;
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3)
+}
+
+.demo-style-switch .config-title {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000;
+	border-bottom: 1px dotted #CCC;
+	border-top: 1px dotted #CCC;
+	margin-bottom: 5px
+}
+
+.demo-style-switch ul {
+	margin-bottom: 10px;
+	padding-left: 0px
+}
+
+.demo-style-switch ul .active a {
+	color: #005885;
+	font-weight: 400
+}
+
+.demo-style-switch ul .p {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 10px
+}
+
+.demo-style-switch ul li:hover {
+	cursor: pointer
+}
+
+.demo-style-switch ul li a {
+	font-size: 12px;
+	color: #808080;
+	letter-spacing: 0.1px
+}
+
+.demo-style-switch ul li a:hover {
+	color: #008ed6;
+	text-decoration: none
+}
+
+.demo-style-switch ul.styles {
+	margin-top: 15px
+}
+
+.demo-style-switch ul.styles li {
+	display: inline-block;
+	margin-right: 5px
+}
+
+.demo-style-switch ul.styles li .gredient, .demo-style-switch ul.styles li .svg, .demo-style-switch ul.styles li .color {
+	width: 52px;
+	height: 40px
+}
+/* COLOR */
+.demo-style-switch ul.styles li .sky {
+	background: #029BB4
+}
+
+.demo-style-switch ul.styles li .brown {
+	background: #8D6E63
+}
+
+.demo-style-switch ul.styles li .green {
+	background: #5A9F5C
+}
+
+.demo-style-switch ul.styles li .orange {
+	background: #FC5F45
+}
+
+.demo-style-switch ul.styles li .pink {
+	background: #E91E63
+}
+
+.demo-style-switch ul.styles li .olive {
+	background: #AB9D01
+}
+
+/* GREDIENT */
+.demo-style-switch ul.styles li .black.gredient {
+	background: -webkit-linear-gradient(to right bottom, #141E30, #243B55);
+	/* Webkit browsers */
+	background: -moz-linear-gradient(to right bottom, #141E30, #243B55);
+	/* Firefox(old) */
+	background: -o-linear-gradient(to right bottom, #141E30, #243B55);
+	/* Opera(old) */
+	background: -ms-linear-gradient(to right bottom, #141E30 40%, #243B55 70%);
+	/* IE10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, start-colorstr=#141E30, end-colorstr=#243B55);
+	/* IE9 */
+	ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, start-colorstr=#141E30, end-colorstr=#243B55)";
+	/* IE8 */
+	background: linear-gradient(to right bottom, #141E30 40%, #243B55 70%);
+	/* W3C */
+	background-color: #243B55; 
+}
+.demo-style-switch ul.styles li .blue.gredient {
+	background: -webkit-linear-gradient(to right bottom, #56ccf2, #2f80ed);
+	/* Webkit browsers */
+	background: -moz-linear-gradient(to right bottom, #56ccf2, #2f80ed);
+	/* Firefox(old) */
+	background: -o-linear-gradient(to right bottom, #56ccf2, #2f80ed);
+	/* Opera(old) */
+	background: -ms-linear-gradient(to right bottom, #56ccf2 40%, #2f80ed 70%);
+	/* IE10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, start-colorstr=#56ccf2, end-colorstr=#2f80ed);
+	/* IE9 */
+	ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, start-colorstr=#56ccf2, end-colorstr=#2f80ed)";
+	/* IE8 */
+	background: linear-gradient(to right bottom, #56ccf2 40%, #2f80ed 70%);
+	/* W3C */
+	background-color: #2f80ed;
+}
+.demo-style-switch ul.styles li .granduer.gredient {
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.demo-style-switch ul.styles li .purple.gredient {
+	background: -webkit-linear-gradient(to right bottom, #6509e2, #5a02b4);
+	/* Webkit browsers */
+	background: -moz-linear-gradient(to right bottom, #6509e2, #5a02b4);
+	/* Firefox(old) */
+	background: -o-linear-gradient(to right bottom, #6509e2, #5a02b4);
+	/* Opera(old) */
+	background: -ms-linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+	/* IE10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, start-colorstr=#6509e2, end-colorstr=#5a02b4);
+	/* IE9 */
+	ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, start-colorstr=#6509e2, end-colorstr=#5a02b4)";
+	/* IE8 */
+	background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+	/* W3C */
+	background-color: #5a02b4;
+}
+.demo-style-switch ul.styles li .red.gredient {
+	background: -webkit-linear-gradient(to right bottom, #d31027, #ea384d);
+	/* Webkit browsers */
+	background: -moz-linear-gradient(to right bottom, #d31027, #ea384d);
+	/* Firefox(old) */
+	background: -o-linear-gradient(to right bottom, #d31027, #ea384d);
+	/* Opera(old) */
+	background: -ms-linear-gradient(to right bottom, #d31027 40%, #ea384d 70%);
+	/* IE10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, start-colorstr=#d31027, end-colorstr=#ea384d);
+	/* IE9 */
+	ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, start-colorstr=#d31027, end-colorstr=#ea384d)";
+	/* IE8 */
+	background: linear-gradient(to right bottom, #d31027 40%, #ea384d 70%);
+	/* W3C */
+	background-color: #ea384d;
+}
+.demo-style-switch ul.styles li .yellow.gredient {
+	background: -webkit-linear-gradient(to right bottom, #de6262, #ffb88c);
+	/* Webkit browsers */
+	background: -moz-linear-gradient(to right bottom, #de6262, #ffb88c);
+	/* Firefox(old) */
+	background: -o-linear-gradient(to right bottom, #de6262, #ffb88c);
+	/* Opera(old) */
+	background: -ms-linear-gradient(to right bottom, #de6262 40%, #ffb88c 70%);
+	/* IE10 */
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, start-colorstr=#de6262, end-colorstr=#ffb88c);
+	/* IE9 */
+	ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, start-colorstr=#de6262, end-colorstr=#ffb88c)";
+	/* IE8 */
+	background: linear-gradient(to right bottom, #de6262 40%, #ffb88c 70%);
+	/* W3C */
+	background-color: #ffb88c;
+}
+
+/* SVG */
+.demo-style-switch ul.styles li .circles.svg {
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.demo-style-switch ul.styles li .circle-2.svg {
+	background-color: #ff0000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1000 1000'%3E%3Cdefs%3E%3CradialGradient id='a' cx='500' cy='500' r='60%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ff0000'/%3E%3Cstop offset='1' stop-color='%23900'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='500' cy='500' r='70%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FF0' stop-opacity='1'/%3E%3Cstop offset='1' stop-color='%23FF0' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1000' height='1000'/%3E%3Cg fill='none' stroke='%23F40' stroke-width='2' stroke-miterlimit='10' stroke-opacity='.5'%3E%3Ccircle cx='500' cy='500' r='725'/%3E%3Ccircle cx='500' cy='500' r='700'/%3E%3Ccircle cx='500' cy='500' r='675'/%3E%3Ccircle cx='500' cy='500' r='650'/%3E%3Ccircle cx='500' cy='500' r='625'/%3E%3Ccircle cx='500' cy='500' r='600'/%3E%3Ccircle cx='500' cy='500' r='575'/%3E%3Ccircle cx='500' cy='500' r='550'/%3E%3Ccircle cx='500' cy='500' r='525'/%3E%3Ccircle cx='500' cy='500' r='500'/%3E%3Ccircle cx='500' cy='500' r='475'/%3E%3Ccircle cx='500' cy='500' r='450'/%3E%3Ccircle cx='500' cy='500' r='425'/%3E%3Ccircle cx='500' cy='500' r='400'/%3E%3Ccircle cx='500' cy='500' r='375'/%3E%3Ccircle cx='500' cy='500' r='350'/%3E%3Ccircle cx='500' cy='500' r='325'/%3E%3Ccircle cx='500' cy='500' r='300'/%3E%3Ccircle cx='500' cy='500' r='275'/%3E%3Ccircle cx='500' cy='500' r='250'/%3E%3Ccircle cx='500' cy='500' r='225'/%3E%3Ccircle cx='500' cy='500' r='200'/%3E%3Ccircle cx='500' cy='500' r='175'/%3E%3Ccircle cx='500' cy='500' r='150'/%3E%3Ccircle cx='500' cy='500' r='125'/%3E%3Ccircle cx='500' cy='500' r='100'/%3E%3Ccircle cx='500' cy='500' r='75'/%3E%3Ccircle cx='500' cy='500' r='50'/%3E%3Ccircle cx='500' cy='500' r='25'/%3E%3C/g%3E%3Crect fill-opacity='.5' fill='url(%23b)' width='1000' height='1000'/%3E %3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.demo-style-switch ul.styles li .hexagon.svg {
+	background-color: #6509e2;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+}
+.demo-style-switch ul.styles li .hexagon-2.svg {
+	background-color: #330000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.demo-style-switch ul.styles li .stripe.svg {
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+.demo-style-switch ul.styles li .stripe-2.svg {
+	background-color: #ff9d00;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.demo-style-switch .switch-button {
+	opacity: 1 !important;
+	background: #FFF;
+	padding: 10px;
+	font-size: 25px;
+	color: #272727;
+	position: absolute;
+	overflow: hidden;
+	right: -46px;
+	top: -10;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border: 1px solid #ccc;
+	border-left: 0px
+}
+
+.demo-style-switch .switch-button:hover {
+	color: #008ed6;
+	cursor: pointer;
+	text-decoration: none
+}
+
+.demo-style-switch .homepage-style li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px
+}
+
+.demo-style-switch .homepage-style li a {
+	padding: 5px;
+	font-size: 12px;
+	letter-spacing: inherit;
+	border: 1px solid #ececec
+}
+
+.demo-style-switch .homepage-style li a:hover {
+	border: 1px solid #008ed6
+}
+
+.demo-style-switch .homepage-style .active {
+	border: none
+}
+
+.demo-style-switch .homepage-style .active a {
+	border: 1px solid #008ed6;
+	background: #008ed6;
+	color: #fff
+}
+
+.demo-style-switch .font-selection li {
+	color: #808080;
+	font-size: 12px;
+	letter-spacing: 0.1px
+}
+
+.demo-style-switch .font-selection li div:hover {
+	color: #008ed6
+}
+#chose-typography{
+	width:100%;
+}
+@media only screen and (max-width: 767px) {
+	.demo-style-switch .switch-button {
+		padding: 5px;
+		right: -34px;
+		font-size: 20px
+	}
+	.demo-style-switch {
+		top: 60px
+	}
+}
+
+.shot-footer {
+	margin-bottom: 25px;
+	padding: 10px 15px;
+	background: #EEF4F5
+}
+
+.shot-item {
+	border: 1px solid #fff
+}
+
+.bg-gray .shot-item {
+	background: #fff;
+	border: 1px solid #EEF4F5
+}
+
+.bg-gray .shot-footer {
+	background: #fff
+}
+
+.hero-content h2 {
+	margin-bottom: 20px
+}
+
+.img-full {
+	width: 100%;
+}
